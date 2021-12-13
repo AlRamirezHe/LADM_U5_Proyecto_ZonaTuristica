@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grisLigero"
+    tools:context=".Pantallas.PantallaNegocio">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:id="@+id/imgNegocio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+        />
+
+
+        <!--========================================
+            MENU DE OPCIONES DE LAS PESTAÑAS
+        ============================================-->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/rojoTransparente" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/contenedorCirculos"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+           <!--     <ImageView
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:src="@drawable/icono_circulo"
+                    app:tint="@color/rojoOscuro"
+                    android:layout_marginRight="5dp"
+
+                    />
+
+                <ImageView
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:src="@drawable/icono_circulo"
+                    app:tint="@color/rojoLigero2"
+                    android:layout_marginRight="5dp"
+
+                    />
+                    -->
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/menuCirculo"
+            android:layout_width="match_parent"
+            android:background="@color/rojoOscuro"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            app:tabGravity="center"
+            app:tabRippleColor="@color/verdeLigero"/>
+
+
+
+
+
+        <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pruebaNegocio"
+        android:textSize="18sp"
+        android:text=""
+        />-->
+
+    </FrameLayout>
+
+
+    <!-- Descripcion -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            android:text="Descripcion"
+            android:textStyle="bold"
+            android:textColor="@color/rojoLigero"
+            android:paddingVertical="5dp"
+            android:paddingHorizontal="8dp"
+            android:background="@drawable/esq_redondeada_supder"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDescripcion"
+            android:textSize="19sp"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/rojoOscuro"
+            android:layout_marginTop="6dp"
+
+
+            />
+    </LinearLayout>
+
+
+    <!-- Horario-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            android:text="Horario"
+            android:textStyle="bold"
+            android:textColor="@color/rojoLigero"
+            android:paddingVertical="5dp"
+            android:paddingHorizontal="8dp"
+            android:background="@drawable/esq_redondeada_supder"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/txtHorario"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/rojoOscuro"
+            android:layout_marginTop="6dp"
+
+
+            />
+    </LinearLayout>
+
+
+
+    <!-- Contacto-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            android:text="Telefono"
+            android:textStyle="bold"
+            android:textColor="@color/rojoLigero"
+            android:paddingVertical="5dp"
+            android:paddingHorizontal="8dp"
+            android:background="@drawable/esq_redondeada_supder"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/txtTelefono"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/rojoOscuro"
+            android:layout_marginTop="6dp"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

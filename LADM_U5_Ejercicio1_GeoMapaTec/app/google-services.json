@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "284048023832",
+    "project_id": "mapasu5",
+    "storage_bucket": "mapasu5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284048023832:android:c086ba38b939e42c4dbe6d",
+        "android_client_info": {
+          "package_name": "mx.tecnm.tepic.alramirezh.ladm_u5_ejercicio1_geomapatec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284048023832-i8u62293iigl7o86atb1lulq72s6icg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5t8KCF44h5OkiFaU0UwahRrRx2xhkqmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284048023832-i8u62293iigl7o86atb1lulq72s6icg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284048023832:android:68ab909d7e2b955f4dbe6d",
+        "android_client_info": {
+          "package_name": "mx.tecnm.tepic.alramirezh.ladm_u5_mapas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284048023832-i8u62293iigl7o86atb1lulq72s6icg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5t8KCF44h5OkiFaU0UwahRrRx2xhkqmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284048023832-i8u62293iigl7o86atb1lulq72s6icg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
